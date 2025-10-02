@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Игры в пары</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="content">
+        <main class="main">
+
+            <div class="state">
+                <h1 class="state__title">Пары</h1>
+                <p class="state__maves">Шаги: 0 шагов</p>
+                <p class="state__time">Время: 60 секунд</p>
+            </div>
+
+            <div class="board" id="gameBoard">
+                <h2 class="board__title">Настроить количество карточек (От 2 до 6)</h2>
+                <form class="board__form">
+                    <input type="number" min="2" max="6" step="2" placeholder="По горизантали / вертикали" class="board__input">
+                    <button type="button" class="board__button">Начать</button>
+                </form>
+            </div>
+
+        </main>
+    </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>

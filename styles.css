@@ -6,6 +6,11 @@
 
 body {
   font-family: Verdana, sans-serif;
+  background-image: url(img.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-y: hidden;
 }
 
 /* Обертка всего контента игры */
@@ -77,4 +82,5 @@ body {
 
 .board__button:hover{
   color: rgba(181, 13, 181, 0.7);
+
 }
